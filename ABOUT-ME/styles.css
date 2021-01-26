@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #222;
+  }
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: white;
+    color: black;
+    font-size: 20px;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(241, 241, 241);
+}
+
+body {
+    background: rgb(211, 191, 172);
+    position: absolute;
+    padding: 0;
+    color: white;
+}
+
+.about {
+    font-size: 15px;
+    line-height: 22px;
+    padding:22px 80px 66px 80px;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.beforebootcamp {
+    font-size: 15px;
+    line-height: 22px;
+    padding:40px;
+    background-color: rgb(110, 141, 131);
+}
+
+.why {
+    font-size: 15px;
+    text-align: right;
+    line-height: 22px;
+    padding:40px;
+}
+
+.hobbies {
+    background-color:rgb(211, 191, 172);
+    min-width: 500px;
+    padding: 66px 0 44px 0;
+    text-size-adjust: 10px;
+}
+
+.hobby {
+    width: 15.00%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav li {
+    border-color: 1px white;
+    background-color: rgba(110, 141, 131);
+    float: left;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white
+}
+
+.navi {
+    text-align: center;
+}
+
+.grid {
+    text-align: center;
+}
+
+a:hover {
+    background-color: white;
+  }
+
+
+
+
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: white;
+    color: black;
+    font-size: 20px;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(241, 241, 241);
+}
+
+body {
+    background: rgb(211, 191, 172);
+    position: absolute;
+    padding: 0;
+    color: white;
+}
+
+.about {
+    font-size: 15px;
+    line-height: 22px;
+    padding:22px 80px 66px 80px;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.beforebootcamp {
+    font-size: 15px;
+    line-height: 22px;
+    padding:40px;
+    background-color: rgb(110, 141, 131);
+}
+
+.why {
+    font-size: 15px;
+    text-align: right;
+    line-height: 22px;
+    padding:40px;
+}
+
+.hobbies {
+    background-color:rgb(211, 191, 172);
+    min-width: 500px;
+    padding: 66px 0 44px 0;
+    text-size-adjust: 10px;
+}
+
+.hobby {
+    width: 15.00%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav li {
+    border-color: 1px white;
+    background-color: rgba(110, 141, 131);
+    float: left;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white
+}
+
+.navi {
+    text-align: center;
+}
+
+.grid {
+    text-align: center;
+}
+
+a:hover {
+    background-color: white;
+  }
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+}
+
+.services{
+  background:  rgb(211, 191, 172);
+  text-align: center;
+  }
+
+.services h1{
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 4px solid rgb(110, 141, 131);
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+  }
+  .cen{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+  }
+  .service{
+    display: inline-block;
+    width: calc(100% / 3);
+    margin: 0 -2px;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  .service:hover{
+    background: #ddd;
+  }
+  .service i{
+    color: #3498db;
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+  .service h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0;
+  }
+  .service p{
+    color: gray;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  @media screen and (max-width: 800px) {
+    .service{
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .service{
+      width: 100%;
+    }
+  }
+  

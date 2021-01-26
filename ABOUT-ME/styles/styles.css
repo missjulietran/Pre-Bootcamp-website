@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+header, section, aside, footer {
+    border: 1px solid black;
+    height: 60px;
+    margin: 1%;
+}
+
+p {
+    margin-top: 0;
+    height: 60px;
+    background-color: grey;
+    font-size: 40px;
+}
+
+section {
+    display: inline-block;
+    width: 30%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav li {
+    border-color: 1px white;
+    background-color: rgb(57, 93, 150);
+    float: left;
+    padding: 10px;
+    margin: 1px;
+}
+
